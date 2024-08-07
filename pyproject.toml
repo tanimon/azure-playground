@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "azure-playground"
+version = "0.1.0"
+description = ""
+authors = ["tanimon <8575113+tanimon@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
